@@ -11,6 +11,12 @@ export default {
       this.$router.push('/')
       return
     }
+
+    this.$store.dispatch('MIC/init')
+      .catch(err => {
+        console.log(err)
+        this.$router.push('/logout')
+      })
   }
 }
 </script>

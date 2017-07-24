@@ -29,6 +29,6 @@ export default {
 
 <style lang="scss" scoped>
 #app {
-  //padding-top: 48px;
+  padding-top: 48px;
 }
 </style>
